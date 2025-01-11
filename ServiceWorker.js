@@ -1,9 +1,9 @@
-const cacheName = "DefaultCompany-CoinTaps-1.0";
+const cacheName = "DefaultCompany-Sound_test-1.0";
 const contentToCache = [
-    "Build/BuildUnity.loader.js",
-    "Build/BuildUnity.framework.js.br",
-    "Build/BuildUnity.data.br",
-    "Build/BuildUnity.wasm.br",
+    "Build/Clciker_game_1.loader.js",
+    "Build/Clciker_game_1.framework.js",
+    "Build/Clciker_game_1.data",
+    "Build/Clciker_game_1.wasm",
     "TemplateData/style.css"
 
 ];

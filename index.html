@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | CoinTaps</title>
+    <title>Unity WebGL Player | Sound_test</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1080 height=1920 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BuildUnity.loader.js";
+      var loaderUrl = buildUrl + "/Clciker_game_1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BuildUnity.data.br",
-        frameworkUrl: buildUrl + "/BuildUnity.framework.js.br",
-        codeUrl: buildUrl + "/BuildUnity.wasm.br",
+        dataUrl: buildUrl + "/Clciker_game_1.data",
+        frameworkUrl: buildUrl + "/Clciker_game_1.framework.js",
+        codeUrl: buildUrl + "/Clciker_game_1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "CoinTaps",
+        productName: "Sound_test",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };

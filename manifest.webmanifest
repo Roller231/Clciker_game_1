@@ -1,6 +1,6 @@
 {
-    "name": "CoinTaps",
-    "short_name": "CoinTaps",
+    "name": "Sound_test",
+    "short_name": "Sound_test",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",
